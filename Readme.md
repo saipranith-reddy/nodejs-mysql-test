@@ -26,7 +26,8 @@ This project demonstrates how to set up a Node.js app in Docker to connect with 
 5. `docker exec -it container_id bash`
 6. `mysql -u root -p (then enter admin password from above command)`
 
-7.   ```CREATE USER 'admin'@'%' IDENTIFIED BY 'Admin123';
+7.   ```
+      CREATE USER 'admin'@'%' IDENTIFIED BY 'Admin123';
       GRANT ALL PRIVILEGES ON *.* TO 'admin'@'%' WITH GRANT OPTION;
       FLUSH PRIVILEGES;
       CREATE DATABASE movieDB;```
@@ -53,7 +54,7 @@ INSERT INTO movies (title, genre, release_year) VALUES
 
 `git clone https://github.com/awsdevop183/nodejs-mysql-test.git`
 
-cd nodejs-mysql-tes
+`cd nodejs-mysql-tes`
 
 Update app.js with Mysql Instance Private IP
 
