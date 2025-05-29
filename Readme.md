@@ -54,7 +54,7 @@ INSERT INTO movies (title, genre, release_year) VALUES
 
 `git clone https://github.com/awsdevop183/nodejs-mysql-test.git`
 
-`cd nodejs-mysql-tes`
+`cd nodejs-mysql-test`
 
 Update app.js with Mysql Instance Private IP
 
