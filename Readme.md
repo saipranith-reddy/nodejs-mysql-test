@@ -59,6 +59,9 @@ INSERT INTO movies (title, genre, release_year) VALUES
 
 Update app.js with Mysql Instance Private IP
 
+Install docker on Ubuntu
+```sudo apt update -y && sudo curl https://get.docker.com | bash```
+
 `docker build -t movies .`
 
 `docker run -d --name movies -p 80:3000 movies`
